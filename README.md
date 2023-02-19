@@ -23,24 +23,8 @@
 
 ## 2. S/W architecture
 
-**0.프로젝트 구조도**
-<br>
-<img width="750" alt="" src="https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png">
+**0.프로젝트 구조도**(수정필요)
 
--   네임노드(instances 2개)
--   데이터노드(instances 3개)
--   MLflow(higher instance1개)
-<!-- ![image](https://user-images.githubusercontent.com/76522430/198029901-2f54ab0a-2024-4410-9015-2bee589b8dfe.png) -->
-
-**1.하둡**
-<br>
-<img width="600" alt="" src="https://user-images.githubusercontent.com/76522430/202516933-9f137909-d6bf-4ec2-ba3b-3a0853127c13.png">
-<img width="600" alt="" src="https://user-images.githubusercontent.com/76522430/202517034-94db9866-2aa6-4014-90df-ee2b81f8a476.png">
-
--   저렴한 구축 비용과 비용 대비 빠른 데이터 처리
--   Fault tolerance 장애 대응에 강함
--   Block storage
-    <br><br>
 
 ## 3. 사용 기술🛠
 
