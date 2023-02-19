@@ -16,10 +16,9 @@
 ## 1. 소개
 
 <b>진행 과정</b> : <br>
-실시간 검색어를 대신할 수 있는, 최신 이슈를 한 눈에 보기 위해 뉴스 기사 데이터를 크롤링 후 wordcount를 통해 많이 언급된 단어 추출한다.<br>
-bs4를 통해 웹 정보를 가져오고, re전처리 및 wordcount, mysql연동 & csv저장<br>
-이와 같은 일련의 과정을 airflow의 워크플로우 자동화를 통해 지속적인 작업이 가능하게끔 구현 한다.</br>
-빅데이터 구축 시 발생하는 비용 문제를 개선하고자 프로젝트를 진행했습니다.<br><br>
+1. 웹 뉴스 기사 정보를 (Beautifulsoup)크롤링 후 전처리 및 wordcount를 통해 많이 언급된 단어 추출한다.<br>
+2. mysql 연동 & 데이터 입력, csv파일로 저장한다.<br>
+3. 위와 같은 일련의 과정을 Airflow의 워크플로우 자동화를 통해 지속적인 작업이 가능하게끔 구현 한다.</br>
 
 
 ## 2. S/W architecture
@@ -46,33 +45,25 @@ bs4를 통해 웹 정보를 가져오고, re전처리 및 wordcount, mysql연동
 ## 3. 사용 기술🛠
 
 **Environment**
-
    <table>
      <tr>
-       <td><img src="https://user-images.githubusercontent.com/76522430/198021898-f24ba09d-ce68-4e24-90e3-270474005a16.png" width="100" height="100"></td>
-       <td><img src="https://user-images.githubusercontent.com/76522430/198022023-a9a60c8e-99c3-4617-8f31-d43f36c7c6c9.png" width="100" height="100"></td>
-       <td><img src="https://user-images.githubusercontent.com/76522430/198022648-a500b32d-1cb3-4d05-a6e5-f237bb688706.png" width="100" height="100"></td>
-       <td><img src="https://user-images.githubusercontent.com/76522430/198023323-77c9e225-df0c-4d70-8ed2-c469971c7885.png" width="100" height="100"></td>
-       <td><img src="https://user-images.githubusercontent.com/76522430/198021555-0a36d140-73da-48ea-aa96-171633a9fe4a.png" width="100" height="100"></td>
-       <td><img src="https://user-images.githubusercontent.com/76522430/198021660-c3e1dd6f-8458-41f3-8dc1-e339a1bbeb55.png" width="100" height="100"></td>
-       <td><img src="https://user-images.githubusercontent.com/76522430/198021734-df31223a-0b68-461d-98d4-045ae4c03f6b.png" width="100" height="100"></td>
+       <td><img src="https://user-images.githubusercontent.com/76522430/219982237-e0b5a7c4-73f3-4274-9ee9-ff8fcb336add.png" width="100" height="100"></td>
+       <td><img src="https://user-images.githubusercontent.com/76522430/219982214-47103bf0-af0f-499d-b165-2b725b9b1ff6.png" width="100" height="100"></td>
+       <td><img src="https://user-images.githubusercontent.com/76522430/219982269-70d12c5a-2491-4702-9cd4-f95d585918e7.png" width="100" height="100"></td>
+       <td><img src="https://user-images.githubusercontent.com/76522430/219982070-a3a427b6-9789-4064-a0ec-070b704cac18.png" width="100" height="100"></td>
      </tr>
      <tr>
-       <td align=center>Hadoop</td>
-       <td align=center>Spark</td>
-       <td align=center>Hive</td>
-        <td align=center>ZooKeeper</td>
        <td align=center>Airflow</td>
-       <td align=center>AWS S3</td>
-       <td align=center>MLflow</td>
+       <td align=center>SQL & MYSQL</td>
+       <td align=center>Python</td>
+       <td align=center>BeautifulSoup</td>
      </tr>
    </table>
-
 <br>
 
 ## 4. 결과
 
-
+사진 추가
 
 <br>
 
