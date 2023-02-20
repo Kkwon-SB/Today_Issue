@@ -19,7 +19,12 @@
 1. 웹 뉴스 기사 정보를 (Beautifulsoup)크롤링 후 전처리 및 wordcount를 통해 많이 언급된 단어 추출한다.<br>
 2. mysql 연동 & 데이터 입력, csv파일로 저장한다.<br>
 3. 위와 같은 일련의 과정을 Airflow의 워크플로우 자동화를 통해 지속적인 작업이 가능하게끔 구현 한다.</br>
+![image](https://user-images.githubusercontent.com/76522430/220214609-db29163c-4895-4946-8a54-c212557a3790.png)
 
+![image](https://user-images.githubusercontent.com/76522430/220214818-6bb4f8cb-ea8b-4fa8-908b-8d47a342d0a2.png)
+
+###정상적인 파일 생성 및 데이터 입력 완료
+![image](https://user-images.githubusercontent.com/76522430/220214659-82620066-032f-410c-83c7-fe6e36d8558e.png)
 
 ## 2. S/W architecture
 
