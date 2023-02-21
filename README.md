@@ -23,9 +23,9 @@
 2. mysql 연동 & 데이터 입력, csv파일로 저장한다.<br>
 3. 위와 같은 일련의 과정을 Airflow의 워크플로우 자동화를 통해 지속적인 작업이 가능하게끔 구현 한다.</br>
 
-<img src="https://user-images.githubusercontent.com/76522430/220214609-db29163c-4895-4946-8a54-c212557a3790.png" width="600" height="200">
+<img src="https://user-images.githubusercontent.com/76522430/220311923-97414f68-e459-4292-9ba4-d9622ee3b93c.png" width="600" height="200">
 
-![image](https://user-images.githubusercontent.com/76522430/220214818-6bb4f8cb-ea8b-4fa8-908b-8d47a342d0a2.png)
+![image](https://user-images.githubusercontent.com/76522430/220312498-664a845c-9cb2-48ce-9641-0a227c75ebed.png)
 
 
 #### 정상적인 파일 생성 및 데이터 입력 완료
