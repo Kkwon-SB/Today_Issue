@@ -17,6 +17,9 @@
 
 <b>진행 과정</b> : <br>
 1. 웹 뉴스 기사 정보를 (Beautifulsoup)크롤링 후 전처리 및 wordcount를 통해 많이 언급된 단어 추출한다.<br>
+
+
+
 2. mysql 연동 & 데이터 입력, csv파일로 저장한다.<br>
 3. 위와 같은 일련의 과정을 Airflow의 워크플로우 자동화를 통해 지속적인 작업이 가능하게끔 구현 한다.</br>
 
@@ -54,7 +57,7 @@
 
 ## 4. 결과
 
-사진 추가
+![image](https://user-images.githubusercontent.com/76522430/220311328-3f69ff28-e7ed-4e16-b1cf-c16e08887268.png)
 
 <br>
 
