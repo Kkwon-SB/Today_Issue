@@ -56,6 +56,7 @@
 <br>
 
 ## 4. 결과
+- 1위 ~10위 중 상위권에 가까울 수록 실제 관련 기사가 대부분이었다. 하지만 뒤로 갈 수록 판단하기 애매한 rank, 단어가 있었다. 
 
 ![image](https://user-images.githubusercontent.com/76522430/220311328-3f69ff28-e7ed-4e16-b1cf-c16e08887268.png)
 
